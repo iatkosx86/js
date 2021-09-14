@@ -7,8 +7,7 @@ self.addEventListener('install', e => {
         `/`,
         `/p/debate.html`,
         `/p/subscribe.html`,
-        `/p/explore.html`,
-        `/scripts/comlink.global.js`
+        `/p/explore.html`
       ])
           .then(() => self.skipWaiting());
     })

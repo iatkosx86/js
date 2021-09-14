@@ -1,4 +1,4 @@
-const version = "0.6.20";
+const version = "0.6.21";
 const cacheName = `whackd-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
